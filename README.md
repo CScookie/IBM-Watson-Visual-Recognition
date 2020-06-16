@@ -37,6 +37,8 @@ visual_recognition.set_service_url({'URL'}) #replace {'URL'} with the URL copied
 ```
 #### IBM default classifier is able to recognize a variety of object but lacks accuracy
 
+image used: 
+
 ```python
 
  #URL of your image
