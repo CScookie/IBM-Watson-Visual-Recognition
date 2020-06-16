@@ -38,6 +38,7 @@ visual_recognition.set_service_url({'URL'}) #replace {'URL'} with the URL copied
 #### IBM default classifier is able to recognize a variety of object but lacks accuracy
 
 Image used: 
+
 <img src="README_src/bcce30bc7401eef87973b59442e6fa51.jpg" alt="Cars on road" width=300>
 
 ```python
@@ -102,6 +103,7 @@ Result:
 #### IBM food classifier is able to recognize a variety of food with higher accuracy
 
 Image used: 
+
 <img src="README_src/hotdog.jpg" alt="Hot dog" width=300>
 
 ```python
@@ -237,6 +239,7 @@ visual_recognition.delete_classifier({'classifier_id'}) #replace {'classifier_id
 #### Testing custom classifier.
 
 Image used: 
+
 <img src="README_src/6701_1649_20200616165102_488d5f.jpg" alt="Cars on road" width=300>
 
 ```python
@@ -278,6 +281,7 @@ Result below. We can see there is a confidence score of 0.901 that there are car
 #### Testing custom classifier with an empty road
 
 Image used: 
+
 <img src="README_src/2701_1653_20200616165501_b752f7.jpg" alt="Empty road" width=300>
 
 ```python
